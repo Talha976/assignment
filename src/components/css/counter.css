@@ -1,0 +1,26 @@
+.container{
+    margin-top: 150px;
+    background-color: azure;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    background-image: url('https://images.pexels.com/photos/9739345/pexels-photo-9739345.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.container h2{
+    text-align:center ;   /* centrar texto */  
+}
+.button_div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.button_div button{
+    margin: 10px;
+    background-color: greenyellow 
+}
